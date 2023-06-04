@@ -208,9 +208,50 @@
       /* section 4 end   */
 
       /* section 5 start   */
-        
+      .services-main{
+          background-color: #F8F3F0;
+          margin-top: 135px;
+        }
+        .technology{
+          display: flex;
+          padding-left: 150px;
+          padding-right: 150px;
 
+        }
+        .technology .techno{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+        }
+        .technology .tec-photo {
+          padding: 50px;
+        }
+        .technology .tec-photo img{
+          height: 365px;
+          width: 375px;
+        }
+        .technology .techno .tec-type img{
+          width: 50px;
+          height: 50px;
+        }
+        .technology .techno .tec-type {
+          font-size: 18px;
+          line-height: 26px;
+          word-spacing: 3px;
+          color: #4b4b4b;
+          padding: 10px;
+          /* border: 1px solid #4b4b4b1a; */
+        }
+        .technology .techno .tec-type h4,h3,p{
+          margin-bottom: 20px;
+        }
       /* section 5 end   */
+      /* section 6 Start   */
+
+
+      /* section 6 end   */
+
+
     </style>
   </head>
   <body>
@@ -343,48 +384,6 @@
         </div>
       </section>
 
-
-      <style>
-        .services-main{
-          background-color: #F8F3F0;
-          margin-top: 135px;
-        }
-        .technology{
-          display: flex;
-          padding-left: 150px;
-          padding-right: 150px;
-
-        }
-        .technology .techno{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-
-        }
-        .technology .tec-photo {
-          padding: 50px;
-        }
-        .technology .tec-photo img{
-          height: 365px;
-          width: 375px;
-        }
-        .technology .techno .tec-type img{
-          width: 50px;
-          height: 50px;
-        }
-        .technology .techno .tec-type {
-          font-size: 18px;
-          line-height: 26px;
-          word-spacing: 3px;
-          color: #4b4b4b;
-          padding: 10px;
-          /* border: 1px solid #4b4b4b1a; */
-        }
-        .technology .techno .tec-type h4,h3,p{
-          margin-bottom: 20px;
-        }
-      </style>
-
-
       <section>
         <div class="services-main">
           <div class="service">
@@ -437,6 +436,168 @@
           </div>
         </div>
 
+      </section>
+
+      <style>
+        .nice-peoples{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 50px;
+          margin-bottom: 70px;
+        }
+        .nice-peoples h2{
+          font-size: 40px;
+        font-family: "suisseintBold", sans-serif;
+        }
+        .filling{
+          display: flex;
+        }
+        .peoples .extra-text{
+          font-size: 20px;
+          color: #4B4B4B;
+        }
+        .people{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .people img{
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          padding: 30px 30px 10px 30px;
+        }
+        .people h2{
+          font-size: 16px;
+          color: #0A083B;
+          margin-bottom: 12px;
+        }
+        .people p{
+          font-size: 13px;
+          color: #4B4B4B;
+        }
+
+        .expert{
+          display: flex;
+          margin-top: 30px;
+        }
+        .expert-photo img{
+          width: 480px;
+        }
+        .expertise .ex-point{
+          display: flex;
+        }
+        .expertise .ex-point .img{
+          width: 100px;
+          height: 48px;
+          color: white;
+          font-size: 23px;
+          background-color: #F75B11;
+          border-radius: 50%;
+          align-items: center;
+          text-align: center;
+        }
+        .expertise .ex-point .img i{
+          margin-top: 13px;
+        }
+        .expertise .ex-point h2{
+          font-size: 20px;
+          line-height: 30px;
+
+        }
+        .expertise .ex-point p{
+          font-size: 20px;
+          color: #4b4b4b;
+          line-height: 30px;
+
+        }
+        .expertise .ex-point .ex-content{
+          margin-left: 30px;
+
+        }
+      </style>
+
+
+      <section>
+        <div class="container nice-peoples">
+          <div class="nice-people">
+            <h2>
+              Not only do we deliver,
+              but we’re also nice people
+            </h2>
+          </div>
+          <div class="peoples">
+            <div class="filling">
+              <div class="people">
+                <img src="shah.png" alt="">
+                <h2>VIKAS SHAH</h2>
+                <p>CHIEF TECHNOLOGY OFFICER</p>
+              </div>
+              <div class="people">
+                <img src="shah.png" alt="">
+                <h2>VIKAS SHAH</h2>
+                <p>CHIEF TECHNOLOGY OFFICER</p>
+              </div>
+              <div class="people">
+                <img src="shah.png" alt="">
+                <h2>VIKAS SHAH</h2>
+                <p>CHIEF TECHNOLOGY OFFICER</p>
+              </div>
+            </div>
+            <div class="extra-text">
+              <p>And 30 other guys who we need to think of fun titles for…</p>
+            </div>
+          </div>
+        </div>
+        <div class="service">
+          <div class="container Ourclients ">
+            <h4>Our Expertise</h4>
+            <p>
+              Many large and successful organizations rely on SASA for delivering measurable business results.</p>
+          </div>
+        </div>
+        <div class="container expert">
+          <div class="expert-photo">
+            <img src="team.webp" alt="">
+          </div>
+          <div class="expertise">
+            <div class="ex-point">
+              <div class="img"><i class="fa-regular fa-lightbulb"></i></div>
+              <div class="ex-content">
+                <h2>Innovative methodology</h2>
+                <p>Our work is always based on the latest, most cutting edge methods in software development – 
+                  all to meet and exceed our clients’ business requirements.</p>
+              </div>
+            </div>
+            <div class="ex-point">
+              <div class="img"><i class="fa-solid fa-shield-halved"></i></div>
+              <div class="ex-content">
+                <h2>Innovative methodology</h2>
+                <p>Our work is always based on the latest, most cutting edge methods in software development – 
+                  all to meet and exceed our clients’ business requirements.</p>
+              </div>
+            </div>
+            <div class="ex-point">
+              <div class="img"><i class="fa-regular fa-lightbulb"></i></div>
+              <div class="ex-content">
+                <h2>Innovative methodology</h2>
+                <p>Our work is always based on the latest, most cutting edge methods in software development – 
+                  all to meet and exceed our clients’ business requirements.</p>
+              </div>
+            </div>
+            <div class="ex-point">
+              <div class="img"><i class="fa-regular fa-lightbulb"></i></div>
+              <div class="ex-content">
+                <h2>Innovative methodology</h2>
+                <p>Our work is always based on the latest, most cutting edge methods in software development – 
+                  all to meet and exceed our clients’ business requirements.</p>
+              </div>
+            </div>
+           
+          </div>
+        </div>
       </section>
     </div>
   </body>
